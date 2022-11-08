@@ -1,0 +1,57 @@
+.btn-primary.wd-tweet-button {
+    border-radius: 50px;
+}
+
+.form-control.wd-search-bar {
+    border-radius: 33px;
+}
+
+.container-overload {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 22px;
+    left: 0px;
+    margin-left: 0px;
+}
+
+.wd-explore-img {
+    width: 60px;
+    height: 60px;
+}
+
+.wd-explore-grey-word {
+    line-height:80%;
+    color: grey;
+    font-size: 12px;
+}
+
+.wd-explore-regular-word {
+    line-height:80%;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.wd-explore-right-list-word {
+    line-height:80%;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wd-explore-rounded-logo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-primary.wd-follow-button {
+    border-radius: 20px;
+    width:70px;
+}
+
