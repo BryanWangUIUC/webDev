@@ -1,4 +1,19 @@
+
+function addAplusB() {
+    let a = document.getElementById("a").value; // read as srring
+    a = parseInt(a);
+    let b = document.getElementById("b").value;
+    b = parseInt(b);
+    document.getElementById("c").innerHTML = a + b;
+}
+
+function sayHello() {
+    alert("Hello!")
+}
+
+
 (function() {
+    console.log("Hello World")
 const house = {
     rooms: 3,
     baths: 3,
@@ -8,13 +23,7 @@ document.getElementById("rooms").innerHTML = house.rooms;
 document.getElementById("baths").innerHTML = house.baths;
 document.getElementById("squareFeet").innerHTML = house.sqf;
 
-function addAplusB() {
-    let a = document.getElementById("a").value; // read as srring
-    a = parseInt(a);
-    let b = document.getElementById("b").value;
-    b = parseInt(b);
-    document.getElementById("c").innerHTML = a + b;
-}
+
 
 
 var theElement = document.getElementById("input_a");
@@ -25,9 +34,6 @@ var result = document.getElementById("result");
 result.innerHTML = 2 + 3;
 
 
-function sayHello() {
-    alert("Hello!")
-}
 
 var scores = [90,89,78,67];
 

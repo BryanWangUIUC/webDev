@@ -1,4 +1,15 @@
 const init = () => {
+    const removeThisLi = $("#remove-this");
+    const emptyThisUl = $("#empty-this");
+    removeThisLi.remove();
+    emptyThisUl.empty();
+
+    const newLineItem = $("<li>Line item 1</li>");
+    const anotherLineItem = $("<li>Line item 2</li>");
+    const ul = $("#append-new-elements");
+     ul.append(newLineItem);
+     ul.append(anotherLineItem);
+
     console.log('Hello world from jQuery');
     /* do the rest of the lab work here */
 
