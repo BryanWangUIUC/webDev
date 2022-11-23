@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import HelloWorld from "./hello";
 import Todo from "./components/Todo";
+import todos from "./components/todos.json";
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Todo/>
+    <Todo todos={todos}/>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
