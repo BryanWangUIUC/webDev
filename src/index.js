@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom';
 import HelloWorld from "./hello";
 import Todo from "./components/Todo";
 import todos from "./components/todos.json";
+import NavigationExample from "./components/NavigationExample";
+import Navigation from "./components/Navigation";
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Todo todos={todos}/>
+    <NavigationExample/>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>

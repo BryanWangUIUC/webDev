@@ -1,5 +1,7 @@
 import React, {useLayoutEffect} from "react";
 import TodoItem from "./TodoItem";
+import {Link} from "react-router-dom";
+import Navigation from "./Navigation";
 
 const Todo = (
     {
@@ -14,6 +16,7 @@ const Todo = (
     return (
         // can only return one thing.
         <div>
+            <Navigation/>
             <h1>Todo</h1>
             <ul>
                 {
