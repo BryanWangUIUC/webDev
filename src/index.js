@@ -5,13 +5,16 @@ import Todo from "./components/Todo";
 import todos from "./components/todos.json";
 import NavigationExample from "./components/NavigationExample";
 import Navigation from "./components/Navigation";
+import App from "./App";
+import ReduxExample from "./components/Lectures/week 8/ReduxExample";
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <NavigationExample/>
+    // <App />
+    <ReduxExample/>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
