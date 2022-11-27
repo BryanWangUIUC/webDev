@@ -7,6 +7,7 @@ import NavigationExample from "./components/NavigationExample";
 import Navigation from "./components/Navigation";
 import App from "./App";
 import ReduxExample from "./components/Lectures/week 8/ReduxExample";
+import App_redux_lecture_two from "./App_redux_lecture_two";
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
@@ -14,7 +15,9 @@ import ReduxExample from "./components/Lectures/week 8/ReduxExample";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     // <App />
-    <ReduxExample/>
+    // <ReduxExample/>
+    <App_redux_lecture_two/>
+
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
